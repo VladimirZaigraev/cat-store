@@ -1,0 +1,61 @@
+.App
+  height: 100%
+  min-height: 100vh
+  width: 100vw
+  flex-direction: column
+  flex: 1 0 auto
+  padding-top: 36px
+  background-image: linear-gradient( 180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 5e-5) 49.88%, rgba(0, 0, 0, 0.5) 100% ), url('../../img/pattern.jpg')
+  background-size: 5% auto
+  @media (min-resolution: 2dppx) 
+    background-image: linear-gradient( 180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 5e-5) 49.88%, rgba(0, 0, 0, 0.5) 100% ), url('../../img/pattern@2x.jpg')
+
+.title
+  font-family: Exo2
+  font-size: 36px
+  line-height: 42px
+  font-weight: 200
+  text-align: center
+  color: #FFFFFF
+  text-shadow: 0px 1px 1px #000000
+  margin: 0px 0 26px 0
+
+.cards
+  &__list
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    margin: 0
+    padding: 0
+  &__item
+    list-style-type: none
+    margin: 0
+    position: relative
+  &-item
+    &__text
+      ont-family: 'TrebuchetMS'
+      font-style: normal
+      font-weight: 400
+      font-size: 13px
+      line-height: 15px
+      text-align: center
+      color: #FFFFFF
+      &_sold
+        color: #FFFF66
+    &__link
+      color: #1698D9
+      border-bottom: 1px dashed #1698D9
+      border: none
+      background-color: inherit
+
+  @media (max-width: 985px)
+    .cards
+      &__item
+        width: 45%
+    .cards
+      &__item
+        margin: 0 auto
+  @media (max-width: 700px)
+    .cards
+      &__item
+        width: 100%
