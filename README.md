@@ -80,6 +80,7 @@
 Поиск авиабилетов
 Сервис для подбора авиабилетов. Реализован поиск, фильтрация и сортировка авиабилетов. Данные по авиабилетам формируются из JSON файла.
 Дизайн и функционал разработан мной с самостоятельно.
+
 Стек: HTML5 , SASS ,JS, React
 
 Ссылка на git:[https://github.com/VladimirZaigraev/FlightSearch](https://github.com/VladimirZaigraev/FlightSearch)
@@ -87,8 +88,13 @@
 ##### Дипломный проект:
 
 Многостраничное приложение для поиска фильмов, с возможностью добавления в избранное и фильтрацией. Реализован функционал регистрации, авторизации, редактирования профиля.
+
 Стек: HTML5 , SASS ,JS, React, Node.js(Express.js.),MongoDB
 
 Ссылка на git:[https://github.com/VladimirZaigraev/movies-explorer-full](https://github.com/VladimirZaigraev/movies-explorer-full)
 
 Ссылка на сайт:[https://zaigraev.movie.nomoredomains.work](https://zaigraev.movie.nomoredomains.work)
+
+#### Тестовое задание
+
+Ссылка на gh-pages :[https://vladimirzaigraev.github.io/cat-store/](https://vladimirzaigraev.github.io/cat-store/)
